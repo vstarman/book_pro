@@ -14,7 +14,7 @@ sys.setdefaultencoding('utf-8')
 app = Flask(__name__)
 # 数据库链接设置
 app.secret_key = 'aasdaswkJYYVUSud'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:mysql@192.168.23.150:3306/test'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:meiyoumima920@localhost:3306/book_test'
 # 开启修改追踪,会耗性能
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # 开启原始sql语句返回
